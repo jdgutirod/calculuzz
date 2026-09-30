@@ -6,8 +6,6 @@
 
 <p align="center">
   A full-stack calculator: a React frontend that sends every calculation to a Go REST API.
-  <br>
-  Built by <a href="https://github.com/jdgutirod">Juan David Gutierrez</a>.
 </p>
 
 <p align="center">
