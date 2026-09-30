@@ -1,0 +1,16 @@
+# Go
+backend/bin/
+*.out
+
+# Node / frontend
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
