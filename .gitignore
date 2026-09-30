@@ -5,6 +5,7 @@ backend/bin/
 # Node / frontend
 node_modules/
 dist/
+coverage/
 
 # Environment files
 .env

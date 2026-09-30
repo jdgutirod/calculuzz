@@ -1,0 +1,74 @@
+/* Colors and type taken from the 2048 game. */
+:root {
+  --bg: #faf8ef;
+  --title: #5c534c;
+  --text: #776e65;
+  --text-light: #f9f6f2;
+  --text-muted: #8f7a66;
+  --board: #bbada0;
+  --screen: #f9f6f2;
+  --key-digit: #eee4da;
+  --key-function: #ede0c8;
+  --key-operator: #f2b179;
+  --key-equals: #f67c5f;
+  --error: #b8452a;
+  --focus: #8f7a66;
+  --key-shadow:
+    0 3px 0 rgba(92, 83, 76, 0.3), 0 4px 10px rgba(92, 83, 76, 0.15);
+  --key-shadow-pressed: 0 1px 0 rgba(92, 83, 76, 0.3);
+  --radius-tile: 6px;
+  --radius-board: 8px;
+
+  color-scheme: light;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+}
+
+.app-header__logo {
+  width: 36px;
+  height: 36px;
+}
+
+.app-header__title {
+  margin: 0;
+  color: var(--title);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.app {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px 16px;
+}
