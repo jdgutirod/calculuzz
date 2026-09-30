@@ -1,3 +1,5 @@
+[![Back to main README](https://img.shields.io/badge/←_Back_to-Calculuzz-5c534c)](../README.md)
+
 # Calculuzz Frontend
 
 A calculator web app built with React and TypeScript. It shows the keypad and the screen; every calculation is sent to the [backend API](../backend/README.md).

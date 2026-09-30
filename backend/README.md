@@ -1,3 +1,5 @@
+[![Back to main README](https://img.shields.io/badge/←_Back_to-Calculuzz-5c534c)](../README.md)
+
 # Calculuzz API
 
 A small REST API that does math. You send two numbers as JSON, it sends back the result as JSON.
